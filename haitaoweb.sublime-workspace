@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"TD"
+			],
+			[
+				"br",
+				"BR	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jlu/Documents/Projects/vagrant/HaitaoWeb/server.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/config/routes.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/views/includes/foot.jade",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/views/includes/head.jade",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/css/views/items.css",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/items/edit.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/items/view.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/items/list.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/header.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/index.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/js/config.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/js/controllers/header.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/js/controllers/items.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/js/app.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/views/items/create.html",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/models/item.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/controllers/items.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/public/js/services/items.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/server.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/config/middlewares/authorization.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/models/article.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/express/node_modules/connect/lib/middleware/session.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/passport/lib/passport/strategies/session.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/.bowerrc",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/.jshintrc",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/karma-coverage/node_modules/ibrik/node_modules/coffee-script-redux/node_modules/esmangle/lib/post/transform-static-to-dynamic-property-access.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/karma-coverage/node_modules/istanbul/node_modules/escodegen/node_modules/source-map/build/prefix-source-map.jsm",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/karma-coverage/node_modules/ibrik/node_modules/coffee-script-redux/test/side-effects.coffee",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/express/lib/response.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/mongodb/journal/j._0",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/controllers/users.js",
+		"/Users/jlu/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/.bin/jade",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/config/env/development.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/bower/node_modules/mout/object/deepEquals.js",
+		"/Users/jlu/Documents/Projects/vagrant/mean-user/app/controllers/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/angular-phonecat/app/index.html",
+		"/Users/jlu/Documents/Projects/vagrant/angular-phonecat/app/js/controllers.js",
+		"/Users/jlu/Documents/Projects/vagrant/angular-phonecat/app/partials/phone-detail.html",
+		"/Users/jlu/Downloads/angular.js",
+		"/Users/jlu/Documents/Projects/vagrant/eagle-svc/.gitignore",
+		"/Users/jlu/Documents/Projects/vagrant/sample-app/node_modules/brogan/lib/spec/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/activities/activities.rhtml",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking/lib/helper.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking/lib/middleware/tracking.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking/lib/taas/client.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking/node_modules/ebay-app-meta/lib/res-svc-client-helper.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/package.json",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/async-fragments/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/index/index.rhtml",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/activities/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-app-launcher/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/process.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/monitor.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/express/lib/express.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/express/node_modules/connect/lib/connect.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/misc.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/ecv.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/cluster2/lib/component-status.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/server.js",
+		"/Users/jlu/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/activities/activities.css",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/init-app.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/ep/index.css",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/ep/index.rhtml",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/src/ui/pages/ep/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-ep/lib/middleware/ebay-ep-middleware.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-ep/node_modules/ebay-rest-client/lib/rest-client.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-ep/lib/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/ebay-activity.sublime-project",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/module-config/lib/index.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-ep/README.md",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/routes.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/work/templates/ui/pages/activities/activities.rhtml.js",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/.gitignore",
+		"/Users/jlu/Documents/Projects/vagrant/ebay-activity/config/raptor_app.xml",
+		"/Users/jlu/Documents/Projects/vagrant/fe-collections/node_modules/ebay-rest-client/README.md",
+		"/Users/jlu/Documents/Projects/vagrant/fe-collections/init-app.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jlu/Documents/Projects/vagrant/mean-user/public",
+			"/Users/jlu/Documents/Projects/vagrant/mean-user/node_modules/express",
+			"/Users/jlu/Documents/Projects/vagrant/mean-user",
+			"/Users/jlu/Documents/Projects/vagrant/ebay-node-demo",
+			"/Users/jlu/Documents/Projects/vagrant/ebay-activity/",
+			"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/ebay-tracking",
+			"/Users/jlu/Documents/Projects/vagrant/ebay-activity/node_modules/express/node_modules/connect",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"window.user",
+			"window",
+			"article",
+			"Article",
+			"session",
+			".jsonp(",
+			"views/index.html",
+			"index.html",
+			"routes",
+			"argumentsToChain",
+			"chain",
+			"\"ebay-iaf\"",
+			"ebay-iaf",
+			"getLevel1UserId",
+			"accountid",
+			"soa",
+			"version",
+			"setTaasContext",
+			"track",
+			"getTaasContext",
+			"Invalid child type",
+			"SUCURE_HEADERS",
+			".track(",
+			"lib/helper.js",
+			"trackingTaasHelper",
+			"taas/helper.js",
+			"helper.js",
+			"getTaasContext",
+			"listen",
+			"initApp",
+			"super+shift+r",
+			"super+s",
+			"super+r",
+			"goto",
+			"middleware",
+			"bodyParser",
+			"$",
+			"express",
+			"ExperimentationContext",
+			"deferred",
+			"_request",
+			"/*",
+			";\n",
+			"notifyOnRequest",
+			"export",
+			"EP_KEY",
+			"onEPContextAvailable",
+			"request",
+			"ebayEP",
+			"export",
+			"3342 3032",
+			"submit",
+			".mapSeries",
+			".mapSe",
+			"series",
+			"mapSeries",
+			"aync.mapSer",
+			"mapSeries",
+			"series",
+			"mapS",
+			"arguments",
+			"mapSeries",
+			"series"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"item",
+			" var articles = require('../app/controllers/items');\n    app.get('/articles', articles.all);\n    app.post('/articles', auth.requiresLogin, articles.create);\n    app.get('/articles/:articleId', articles.show);\n    app.put('/articles/:articleId', auth.requiresLogin, auth.article.hasAuthorization, articles.update);\n    app.del('/articles/:articleId', auth.requiresLogin, auth.article.hasAuthorization, articles.destroy);\n\n    // Finish with setting up the articleId param\n    app.param('articleId', articles.article);",
+			"item",
+			"articles",
+			"Item",
+			"3242 3032"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "haitaoweb.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"taas/helper",
+				"node_modules/ebay-tracking/node_modules/ebay-app-meta/lib/res-svc-client-helper.js"
+			],
+			[
+				"activit/ind",
+				"src/ui/pages/activities/index.js"
+			],
+			[
+				"connect.js",
+				"node_modules/express/node_modules/connect/lib/connect.js"
+			],
+			[
+				"express.js",
+				"node_modules/express/lib/express.js"
+			],
+			[
+				"cluster2/index.js",
+				"node_modules/cluster2/lib/index.js"
+			],
+			[
+				"applauncher",
+				"node_modules/ebay-app-launcher/index.js"
+			],
+			[
+				"init-app",
+				"init-app.js"
+			],
+			[
+				"ebay-app-launcher",
+				"node_modules/ebay-app-launcher/index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

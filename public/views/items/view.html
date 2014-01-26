@@ -1,0 +1,17 @@
+<section data-ng-controller="ItemsController" data-ng-init="findOne()">
+    <span>{{item.created | date:'medium'}}</span>/
+    <span>{{item.seller.name}}</span>
+    <h2>{{item.title}}</h2>
+    <div data-ng-show="global.user._id == item.seller._id">
+        <a class="btn" href="/#!/items/{{item._id}}/edit">
+        	<i class="icon-edit"></i>
+        </a> 
+        <a class="btn" data-ng-click="remove();">
+            <i class="icon-trash"></i>
+        </a>
+    </div>
+    <div>{{item.description}}</div>
+    <div>{{item.brand}}</div>
+    <div>{{item.price}}</div>
+    <div>{{item.pictures}}</div>
+</section>
