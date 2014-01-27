@@ -3,7 +3,7 @@
 module.exports = {
     db: "mongodb://admin:mypwd@troup.mongohq.com:10085/haitao",
     app: {
-        name: "MEAN - A Modern Stack - Production"
+        name: "HaitaoWeb"
     },
     facebook: {
         clientID: "APP_ID",
