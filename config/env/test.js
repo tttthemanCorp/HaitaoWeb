@@ -4,11 +4,11 @@ module.exports = {
     db: "mongodb://localhost/mean-test",
     port: 3001,
     app: {
-        name: "HaitaoWeb - Test"
+        name: "海淘会 - Test"
     },
     facebook: {
-        clientID: "APP_ID",
-        clientSecret: "APP_SECRET",
+        clientID: "651112554926626",
+        clientSecret: "4f9aa64e5f15d6c2b46bd844fef99d2a",
         callbackURL: "http://localhost:3000/auth/facebook/callback"
     },
     twitter: {
