@@ -8,21 +8,21 @@ module.exports = {
     facebook: {
         clientID: "651112554926626",
         clientSecret: "4f9aa64e5f15d6c2b46bd844fef99d2a",
-        callbackURL: "http://localhost:3000/auth/facebook/callback"
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/facebook/callback"
     },
     twitter: {
         clientID: "CONSUMER_KEY",
         clientSecret: "CONSUMER_SECRET",
-        callbackURL: "http://localhost:3000/auth/twitter/callback"
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/twitter/callback"
     },
     github: {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",
-        callbackURL: "http://localhost:3000/auth/github/callback"
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/github/callback"
     },
     google: {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",
-        callbackURL: "http://localhost:3000/auth/google/callback"
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/google/callback"
     }
 }
