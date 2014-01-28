@@ -11,8 +11,8 @@ module.exports = {
         callbackURL: "http://haitaoweb.herokuapp.com/auth/facebook/callback"
     },
     twitter: {
-        clientID: "CONSUMER_KEY",
-        clientSecret: "CONSUMER_SECRET",
+        clientID: "bcJhzkSHxRY92VBULBL0fQ",
+        clientSecret: "dpDsxupJaZhUWdy5HYOAi0NBed52auyEp6eI35We1U",
         callbackURL: "http://haitaoweb.herokuapp.com/auth/twitter/callback"
     },
     github: {
