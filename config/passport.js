@@ -6,6 +6,8 @@ var mongoose = require('mongoose'),
     FacebookStrategy = require('passport-facebook').Strategy,
     GitHubStrategy = require('passport-github').Strategy,
     GoogleStrategy = require('passport-google-oauth').OAuth2Strategy,
+    BaiduStrategy = require('passport-baidu').Strategy,
+    WeiboStrategy = require('passport-weibo-2').Strategy,
     User = mongoose.model('User'),
     config = require('./config');
 
@@ -162,6 +164,64 @@ module.exports = function(passport) {
                         email: profile.emails[0].value,
                         username: profile.username,
                         provider: 'google',
+                        google: profile._json
+                    });
+                    user.save(function(err) {
+                        if (err) console.log(err);
+                        return done(err, user);
+                    });
+                } else {
+                    return done(err, user);
+                }
+            });
+        }
+    ));
+
+    // Use baidu strategy
+    passport.use(new BaiduStrategy({
+            clientID: config.baidu.clientID,
+            clientSecret: config.baidu.clientSecret,
+            callbackURL: config.baidu.callbackURL
+        },
+        function(accessToken, refreshToken, profile, done) {
+            User.findOne({
+                'baidu.id': profile.id
+            }, function(err, user) {
+                if (!user) {
+                    user = new User({
+                        name: profile.displayName,
+                        email: profile.emails[0].value,
+                        username: profile.username,
+                        provider: 'baidu',
+                        google: profile._json
+                    });
+                    user.save(function(err) {
+                        if (err) console.log(err);
+                        return done(err, user);
+                    });
+                } else {
+                    return done(err, user);
+                }
+            });
+        }
+    ));
+
+    // Use weibo strategy
+    passport.use(new WeiboStrategy({
+            clientID: config.weibo.clientID,
+            clientSecret: config.weibo.clientSecret,
+            callbackURL: config.weibo.callbackURL
+        },
+        function(accessToken, refreshToken, profile, done) {
+            User.findOne({
+                'weibo.id': profile.id
+            }, function(err, user) {
+                if (!user) {
+                    user = new User({
+                        name: profile.displayName,
+                        email: profile.emails[0].value,
+                        username: profile.username,
+                        provider: 'weibo',
                         google: profile._json
                     });
                     user.save(function(err) {

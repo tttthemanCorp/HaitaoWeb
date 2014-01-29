@@ -62,6 +62,26 @@ module.exports = function(app, passport, auth) {
         failureRedirect: '/signin'
     }), users.authCallback);
 
+    // Setting the baidu oauth routes
+    app.get('/auth/baidu', passport.authenticate('baidu', {
+        scope: ['email', 'user_about_me'],
+        failureRedirect: '/signin'
+    }), users.signin);
+
+    app.get('/auth/baidu/callback', passport.authenticate('baidu', {
+        failureRedirect: '/signin'
+    }), users.authCallback);
+
+    // Setting the weibo oauth routes
+    app.get('/auth/weibo', passport.authenticate('weibo', {
+        scope: ['email', 'user_about_me'],
+        failureRedirect: '/signin'
+    }), users.signin);
+
+    app.get('/auth/weibo/callback', passport.authenticate('weibo', {
+        failureRedirect: '/signin'
+    }), users.authCallback);
+
 
     // Item Routes
     var items = require('../app/controllers/items');

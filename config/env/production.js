@@ -24,5 +24,15 @@ module.exports = {
         clientID: "APP_ID",
         clientSecret: "APP_SECRET",
         callbackURL: "http://haitaoweb.herokuapp.com/auth/google/callback"
+    },
+    baidu: {
+        clientID: "SL9TzzUuiw0oEELSnRkiWzVb",
+        clientSecret: "XaUnsoZ9KpGCPbeSPqeKt1pvBy3keKA0",
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/baidu/callback"
+    },
+    weibo: {
+        clientID: "APP_ID",
+        clientSecret: "APP_SECRET",
+        callbackURL: "http://haitaoweb.herokuapp.com/auth/weibo/callback"
     }
 }

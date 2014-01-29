@@ -30,6 +30,8 @@
     "passport-twitter": "~1.0.2",
     "passport-github": "~0.1.5",
     "passport-google-oauth": "~0.1.5",
+    "passport-baidu": "~0.0.1",
+    "passport-weibo-2": "~0.2.0",
     "lodash": "~2.4.1",
     "view-helpers": "~0.1.4",
     "mean-logger": "0.0.1",
