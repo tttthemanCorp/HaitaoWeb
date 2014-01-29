@@ -193,7 +193,7 @@ module.exports = function(passport) {
                         email: profile.emails[0].value,
                         username: profile.username,
                         provider: 'baidu',
-                        google: profile._json
+                        baidu: profile._json
                     });
                     user.save(function(err) {
                         if (err) console.log(err);
@@ -219,10 +219,10 @@ module.exports = function(passport) {
                 if (!user) {
                     user = new User({
                         name: profile.displayName,
-                        email: profile.emails[0].value,
+                        //email: profile.emails[0].value,
                         username: profile.username,
                         provider: 'weibo',
-                        google: profile._json
+                        weibo: profile._json
                     });
                     user.save(function(err) {
                         if (err) console.log(err);
