@@ -220,8 +220,7 @@ module.exports = function(passport) {
                 if (!user) {
                     console.log(JSON.stringify(profile));
                     user = new User({
-                        name: profile.displayName,
-                        //email: profile.emails[0].value,
+                        name: profile.nickname,
                         username: profile.username,
                         provider: 'weibo',
                         weibo: profile._json
