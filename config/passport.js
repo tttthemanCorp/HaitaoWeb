@@ -218,7 +218,7 @@ module.exports = function(passport) {
                 'weibo.id': profile.id
             }, function(err, user) {
                 if (!user) {
-                    console.log(JSON.stringify(profile));
+                    //console.log(JSON.stringify(profile));
                     user = new User({
                         name: profile.nickname,
                         username: profile.username,
