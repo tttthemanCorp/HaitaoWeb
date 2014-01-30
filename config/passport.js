@@ -224,7 +224,8 @@ module.exports = function(passport) {
                         name: profile.nickname,
                         username: profile.username,
                         provider: 'weibo',
-                        weibo: profile._json
+                        //weibo: profile._json
+                        weibo: JSON.parse(profile._raw)
                     });
                     user.save(function(err) {
                         if (err) console.log(err);
