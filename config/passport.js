@@ -185,11 +185,10 @@ module.exports = function(passport) {
         },
         function(accessToken, refreshToken, profile, done) {
             User.findOne({
-                'baidu.id': profile.id
+                'baidu.userid': profile.id
             }, function(err, user) {
                 if (!user) {
-                    console.log(JSON.stringify(profile));
-                    console.log("profile._json = " + JSON.stringify(profile._json));
+                    //console.log(JSON.stringify(profile));
                     user = new User({
                         name: profile.username,
                         username: profile.username,
@@ -218,7 +217,7 @@ module.exports = function(passport) {
                 'weibo.id': profile.id
             }, function(err, user) {
                 if (!user) {
-                    console.log(JSON.stringify(profile));
+                    //console.log(JSON.stringify(profile));
                     user = new User({
                         name: profile.nickname,
                         username: profile.username,
