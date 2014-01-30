@@ -219,13 +219,11 @@ module.exports = function(passport) {
             }, function(err, user) {
                 if (!user) {
                     console.log(JSON.stringify(profile));
-                    console.log("profile._json = " + JSON.stringify(profile._json));
                     user = new User({
                         name: profile.nickname,
                         username: profile.username,
                         provider: 'weibo',
-                        //weibo: profile._json
-                        weibo: JSON.parse(profile._raw)
+                        weibo: profile._json
                     });
                     user.save(function(err) {
                         if (err) console.log(err);
