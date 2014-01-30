@@ -64,7 +64,6 @@ module.exports = function(app, passport, auth) {
 
     // Setting the baidu oauth routes
     app.get('/auth/baidu', passport.authenticate('baidu', {
-        scope: ['email', 'user_about_me'],
         failureRedirect: '/signin'
     }), users.signin);
 
@@ -74,7 +73,6 @@ module.exports = function(app, passport, auth) {
 
     // Setting the weibo oauth routes
     app.get('/auth/weibo', passport.authenticate('weibo', {
-        scope: ['email', 'user_about_me'],
         failureRedirect: '/signin'
     }), users.signin);
 

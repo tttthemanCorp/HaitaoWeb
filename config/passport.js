@@ -188,9 +188,9 @@ module.exports = function(passport) {
                 'baidu.id': profile.id
             }, function(err, user) {
                 if (!user) {
-                    console.log(JSON.stringify(profile));
+                    //console.log(JSON.stringify(profile));
                     user = new User({
-                        name: profile.displayName,
+                        name: profile.username,
                         username: profile.username,
                         provider: 'baidu',
                         baidu: profile._json

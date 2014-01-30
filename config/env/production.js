@@ -26,10 +26,10 @@ module.exports = {
         callbackURL: "http://haitaoweb.herokuapp.com/auth/google/callback"
     },
     baidu: {
-        //clientID: "SL9TzzUuiw0oEELSnRkiWzVb",
-        //clientSecret: "XaUnsoZ9KpGCPbeSPqeKt1pvBy3keKA0",
-        clientID: "c1GGZaLl5qIOjslpTLqKD5Lp",
-        clientSecret: "Hfxd5eFNsxe0U0z8BozvLZKIiHTCmWNP",
+        clientID: "SL9TzzUuiw0oEELSnRkiWzVb",
+        clientSecret: "XaUnsoZ9KpGCPbeSPqeKt1pvBy3keKA0",
+        //clientID: "c1GGZaLl5qIOjslpTLqKD5Lp",
+        //clientSecret: "Hfxd5eFNsxe0U0z8BozvLZKIiHTCmWNP",
         callbackURL: "http://haitaoweb.herokuapp.com/auth/baidu/callback"
     },
     weibo: {
