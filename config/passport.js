@@ -189,6 +189,7 @@ module.exports = function(passport) {
             }, function(err, user) {
                 if (!user) {
                     console.log(JSON.stringify(profile));
+                    console.log("profile._json = " + JSON.stringify(profile._json));
                     user = new User({
                         name: profile.username,
                         username: profile.username,
@@ -218,6 +219,7 @@ module.exports = function(passport) {
             }, function(err, user) {
                 if (!user) {
                     console.log(JSON.stringify(profile));
+                    console.log("profile._json = " + JSON.stringify(profile._json));
                     user = new User({
                         name: profile.nickname,
                         username: profile.username,
