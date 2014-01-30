@@ -214,7 +214,7 @@ module.exports = function(passport) {
         },
         function(accessToken, refreshToken, profile, done) {
             User.findOne({
-                'weibo.id': profile.id
+                'weibo.idstr': profile.id
             }, function(err, user) {
                 if (!user) {
                     console.log(JSON.stringify(profile));
