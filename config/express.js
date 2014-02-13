@@ -7,7 +7,9 @@ var express = require('express'),
     mongoStore = require('connect-mongo')(express),
     flash = require('connect-flash'),
     helpers = require('view-helpers'),
-    config = require('./config');
+    config = require('./config'),
+    dust = require('dustjs-linkedin'),
+    cons = require('consolidate');
 
 module.exports = function(app, passport, db) {
     app.set('showStackError', true);
@@ -31,9 +33,13 @@ module.exports = function(app, passport, db) {
         app.use(express.logger('dev'));
     }
 
+    // set dust as engine
+    app.engine('dust', cons.dust);
+
     // Set views path, template engine and default layout
+    app.set('template_engine', 'dust');
     app.set('views', config.root + '/app/views');
-    app.set('view engine', 'jade');
+    app.set('view engine', 'dust');
 
     // Enable jsonp
     app.enable("jsonp callback");

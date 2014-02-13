@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "express": "~3.4.7",
-    "jade": "~1.0.2",
     "mongoose": "~3.8.3",
     "connect-mongo": "~0.4.0",
     "connect-flash": "~0.1.1",
@@ -57,7 +56,10 @@
     "grunt-nodemon": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3",
     "karma-coverage": "~0.1.4",
-    "karma": "~0.10.9"
+    "karma": "~0.10.9",
+    "dustjs-linkedin": "~2.3.3",
+    "dustjs-helpers": "~1.1.2",
+    "consolidate": "~0.10.0"
   },
   "devDependencies": {
     "supertest": "latest",
