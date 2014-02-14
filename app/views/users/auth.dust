@@ -1,0 +1,21 @@
+{>"layouts/default"/}
+
+{<content}
+<div class="row">
+	<div class="offset1 span5">
+  		<a href="/auth/facebook"><img src="/img/icons/facebook.png"></a>
+  		<a href="/auth/baidu"><img src="/img/icons/baidu.png"></a>
+  		<a href="/auth/twitter"><img src="/img/icons/twitter.png"></a>
+  		<a href="/auth/weibo"><img src="/img/icons/weibo.png"></a>
+	</div>
+	<div class="span6">
+		{?message}
+			<div class="fade in alert alert-error">
+	  			<button type="button" data-dismiss="alert" class="close">&times;</button>
+	  			<strong>{message}</strong>
+			</div>
+		{/message}
+		{+auth/}
+	</div>
+</div>
+{/content}
